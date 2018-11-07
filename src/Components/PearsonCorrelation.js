@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import calculatePearsonCorrelation from './../Pearson.js';
 
-class Correlation extends Component {
+class PearsonCorrelation extends Component {
     render() {
         return (
             <div>
@@ -12,4 +12,4 @@ class Correlation extends Component {
     }
 }
 
-export default Correlation;
+export default PearsonCorrelation;

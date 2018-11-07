@@ -12,7 +12,7 @@ class HotOrCold extends Component {
             //setting parameters for acceptable values - 1 and 2 which corresponds to hot or cold
             <label>
                 {this.props.label}:
-                <input style={{width: 100}} type="number" min="0" max="1" value={this.props.value} name={this.props.name} onChange={this.handleValueChange} />
+                <input style={{width: 150}} type="number" min="0" max="1" value={this.props.value} name={this.props.name} onChange={this.handleValueChange} />
             </label>
 
         );

@@ -71,13 +71,13 @@ class App extends Component {
             <br/>
               <form>
                 <div className="inputValue">
-                    <div className="textBox1">
+                    <div className="styleGroup1">
                       <HotOrCold label="Drink Temperature" name="var1" type ="" value={this.state.var1} onChange={this.handleValueChange} />
                       <br/>
                       <small id="" className="displayText">Hot = 1 Cold = 0</small>
                   </div>
               <form/>  
-                  <div className="textBox1">
+                  <div className="styleGroup1">
                     <MinutesTaken label="Minutes Taken" name="var2" type= "" value={this.state.var2} onChange={this.handleValueChange} />
                     <br/>
                     <small id="" className="displayText">Write the time in minutes.</small>
@@ -92,12 +92,12 @@ class App extends Component {
             </div>
                 </form>
                 <br />
-                <h2 className="underlinedResults">Table of Values</h2>
-          <div className="displayText, dataElements">
-            <div className="textBox2" type="" style={{borderRightColor: 'white'}}>
+                <h2 className="tableHeading">Table of Values</h2>
+          <div className="dataElements">
+            <div className="styleGroup2" type="">
               <TableOfValues  label="Drink Temperature" values={this.state.records.var1} />
             </div>
-            <div className="textBox2">
+            <div className="styleGroup2">
               <TableOfValues  label="Minutes Taken" values={this.state.records.var2} />
             </div>
           </div>
