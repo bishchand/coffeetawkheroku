@@ -5,7 +5,6 @@ class PearsonCorrelation extends Component {
     render() {
         return (
             <div>
-                <h2>Correlation:</h2>
                 <div>{calculatePearsonCorrelation(this.props.var1, this.props.var2)}</div>
             </div>
         );

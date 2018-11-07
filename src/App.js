@@ -102,7 +102,8 @@ class App extends Component {
             </div>
           </div>
           <br />
-          <div className="correlationResult" id="results">
+          <h3 className="correlationResult">Correlation:</h3>
+          <div className="header" id="results">
             <PearsonCorrelation var1={this.state.records.var1} var2={this.state.records.var2} />
         </div>
         </div>

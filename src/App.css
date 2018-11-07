@@ -42,6 +42,8 @@ body {
 .header{
   color: white;
   font:'Bebas Neue';
+  font-style:underline;
+  text-decoration: underline;
 }
 
 .displayText{
